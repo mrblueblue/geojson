@@ -25,9 +25,9 @@ function onLoad() {
     type: "fill",
     source: "china",
     paint: {
-      "fill-color": "#888888",
+      "fill-color": "#f49542",
       "fill-outline-color": "red",
-      "fill-opacity": 0.4
+      "fill-opacity": 0.3
     },
     filter: [
       "any",
@@ -73,7 +73,7 @@ function onLoad() {
   });
 
   map.addLayer({
-    id: "tibet-boundary",
+    id: "yunan-boundary",
     type: "fill",
     source: "yunan",
     paint: {
